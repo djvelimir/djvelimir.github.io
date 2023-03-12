@@ -1,0 +1,53 @@
+@media (prefers-color-scheme: dark) {
+    .bg-near-white {
+        background-color: #111;
+        color: #DDD;
+    }
+
+    .mid-gray {
+        color: #BBB;
+    }
+
+    .bg-light-gray {
+        background-color: #222;
+    }
+
+    .w-100 a.black {
+        color: #DDD;
+    }
+
+    .bg-white {
+        background-color: #222;
+    }
+
+    .pagination li a {
+        padding: .5rem .625rem;
+        background-color: #000;
+        color: #DDD;
+        border: 1px solid #222;
+    }
+
+    .dark-gray {
+        color: #BBB;
+    }
+
+    .b--moon-gray {
+        border-color: #444;
+    }
+
+    .ba.link:hover {
+        background-color: #444;
+    }
+
+    .b--black-10 {
+        border-color: rgba(255,255,255,.1);
+    }
+
+    .db.bg-mid-gray {
+        background-color: #AAA;
+    }
+
+    .db.white {
+        color: #000;
+    }
+}
