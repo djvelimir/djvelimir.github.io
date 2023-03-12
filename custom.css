@@ -50,4 +50,12 @@
     .db.white {
         color: #000;
     }
+
+    .dim.link.black {
+        color: #FFF;
+    }
+
+    .ph4 .link:hover {
+        color: #DDD;
+    }
 }
