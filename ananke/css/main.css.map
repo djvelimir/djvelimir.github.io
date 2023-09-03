@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "main.css",
-	"sourceRoot": "/Users/velimir/RootFx/workspace/github/blog",
+	"sourceRoot": "/home/velimir/Projects/github/blog",
 	"sources": [
 		"ananke/css/main.css"
 	],
