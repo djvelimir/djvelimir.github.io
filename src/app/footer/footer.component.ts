@@ -11,16 +11,6 @@ import { RouterLink, RouterLinkActive } from '@angular/router';
 export class FooterComponent {
   categories = [
     {
-      name: 'Demo Projects',
-      items: [
-        { name: 'Hugo', url: 'https://djvelimir.github.io/blog/' },
-        { name: 'Angular', url: 'https://djvelimir.github.io/demo-spa-angular/' },
-        { name: 'Vue', url: 'https://djvelimir.github.io/demo-spa-vue/' },
-        { name: 'React', url: 'https://djvelimir.github.io/demo-spa-react/' },
-        { name: 'Vite + React', url: 'https://djvelimir.github.io/demo-spa-react-vite/' },
-      ]
-    },
-    {
       name: 'Frontend',
       items: [
         { name: 'Hugo', url: 'https://github.com/djvelimir/blog' },
