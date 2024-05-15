@@ -50,7 +50,7 @@ export class FooterComponent {
       items: [
         { name: 'C++ - CLI', url: 'https://github.com/djvelimir/demo-cpp-cli' },
         { name: 'Rust', url: 'https://github.com/djvelimir/demo-rust' },
-        { name: 'Go', url: 'https://github.com/djvelimir/demo-go' },
+        { name: 'Go (Golang)', url: 'https://github.com/djvelimir/demo-go' },
         { name: 'Python - CLI', url: 'https://github.com/djvelimir/demo-python-cli' },
         { name: 'Node.js', url: 'https://github.com/djvelimir/demo-node' },
       ]
