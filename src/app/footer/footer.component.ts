@@ -13,11 +13,11 @@ export class FooterComponent {
     {
       name: 'Frontend',
       items: [
-        { name: 'Hugo', url: 'https://github.com/djvelimir/blog' },
         { name: 'Angular', url: 'https://github.com/djvelimir/demo-spa-angular' },
         { name: 'Vue', url: 'https://github.com/djvelimir/demo-spa-vue' },
         { name: 'React', url: 'https://github.com/djvelimir/demo-spa-react' },
         { name: 'Vite + React', url: 'https://github.com/djvelimir/demo-spa-react-vite' },
+        { name: 'Hugo', url: 'https://github.com/djvelimir/blog' },
       ]
     },
     {
