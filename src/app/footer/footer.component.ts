@@ -17,6 +17,7 @@ export class FooterComponent {
         { name: 'Vue', url: 'https://github.com/djvelimir/demo-spa-vue' },
         { name: 'React', url: 'https://github.com/djvelimir/demo-spa-react' },
         { name: 'Vite + React', url: 'https://github.com/djvelimir/demo-spa-react-vite' },
+        { name: 'Blazor', url: 'https://github.com/djvelimir/demo-spa-blazor' },
         { name: 'Hugo', url: 'https://github.com/djvelimir/blog' },
       ]
     },
