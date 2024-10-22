@@ -49,6 +49,7 @@ export class FooterComponent {
     {
       name: 'Misc',
       items: [
+        { name: 'C', url: 'https://github.com/djvelimir/demo-c' },
         { name: 'C++ - CLI', url: 'https://github.com/djvelimir/demo-cpp-cli' },
         { name: 'Rust', url: 'https://github.com/djvelimir/demo-rust' },
         { name: 'Go (Golang)', url: 'https://github.com/djvelimir/demo-go' },
