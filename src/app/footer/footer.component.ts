@@ -49,6 +49,7 @@ export class FooterComponent {
     {
       name: 'Misc',
       items: [
+        { name: 'Assembly', url: 'https://github.com/djvelimir/demo-assembly' },
         { name: 'C', url: 'https://github.com/djvelimir/demo-c' },
         { name: 'C++', url: 'https://github.com/djvelimir/demo-cpp-cli' },
         { name: 'Rust', url: 'https://github.com/djvelimir/demo-rust' },
