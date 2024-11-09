@@ -57,6 +57,7 @@ export class FooterComponent {
         { name: 'Python', url: 'https://github.com/djvelimir/demo-python-cli' },
         { name: 'Node.js', url: 'https://github.com/djvelimir/demo-node' },
         { name: 'Ruby', url: 'https://github.com/djvelimir/demo-ruby-quine' },
+        { name: 'PHP', url: 'https://github.com/djvelimir/demo-php' },
       ]
     },
   ];
