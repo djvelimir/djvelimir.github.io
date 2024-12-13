@@ -1,44 +1,88 @@
 <footer class="text-gray-400 bg-gray-900 body-font">
-    <div class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
-      <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
-        <a ariaCurrentWhenActive="page" routerLink="/home" class="flex title-font font-medium items-center md:justify-start justify-center text-white">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-green-500 rounded-full" viewBox="0 0 24 24" width="40" height="40">
-            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-          </svg>
-          <span class="ml-3 text-xl">djvelimir.github.io</span>
-        </a>
-      </div>
-      
-      <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
+  <div
+    class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col"
+  >
+    <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
+      <a
+        ariaCurrentWhenActive="page"
+        routerLink="/home"
+        class="flex title-font font-medium items-center md:justify-start justify-center text-white"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          class="w-10 h-10 text-white p-2 bg-green-500 rounded-full"
+          viewBox="0 0 24 24"
+          width="40"
+          height="40"
+        >
+          <path
+            d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"
+          ></path>
+        </svg>
+        <span class="ml-3 text-xl">djvelimir.github.io</span>
+      </a>
+    </div>
 
-        @for (category of categories; track category) {
-          <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-            <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">{{category.name}}</h2>
-            <nav class="list-none mb-10">
-              <ul>
-                @for (item of category.items; track item) {
-                  <li>
-                    <a [href]="item.url" class="text-gray-400 hover:text-white">{{item.name}}</a>
-                  </li>
-                }
-              </ul>
-            </nav>
-          </div>
-        }
-        
+    <div
+      class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center"
+    >
+      @for (category of categories; track category) {
+      <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+        <h2
+          class="title-font font-medium text-white tracking-widest text-sm mb-3"
+        >
+          {{ category.name }}
+        </h2>
+        <nav class="list-none mb-10">
+          <ul>
+            @for (item of category.items; track item) {
+            <li>
+              <a [href]="item.url" class="text-gray-400 hover:text-white">{{
+                item.name
+              }}</a>
+            </li>
+            }
+          </ul>
+        </nav>
       </div>
+      }
     </div>
-    <div class="bg-gray-800 bg-opacity-75">
-      <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
-        <p class="text-gray-400 text-sm text-center sm:text-left">© 2024 djvelimir.github.io</p>
-        <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
-          <a href="https://linkedin.com/in/djvelimir" class="ml-3 text-gray-400">
-            <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24" width="20" height="20">
-              <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
-              <circle cx="4" cy="4" r="2" stroke="none"></circle>
-            </svg>
-          </a>
-        </span>
-      </div>
+  </div>
+  <div class="bg-gray-800 bg-opacity-75">
+    <div
+      class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row"
+    >
+      <p class="text-gray-400 text-sm text-center sm:text-left">
+        © 2024 djvelimir.github.io
+      </p>
+      <span
+        class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start"
+      >
+        <a href="https://linkedin.com/in/djvelimir" class="ml-3 text-gray-400">
+          <svg
+            fill="currentColor"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="0"
+            class="w-5 h-5"
+            viewBox="0 0 24 24"
+            width="20"
+            height="20"
+          >
+            <path
+              stroke="none"
+              d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"
+            ></path>
+            <circle cx="4" cy="4" r="2" stroke="none"></circle>
+          </svg>
+        </a>
+      </span>
     </div>
-  </footer>
+  </div>
+</footer>
