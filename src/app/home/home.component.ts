@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
+import { HolidayService } from '../holiday.service';
 
 @Component({
   selector: 'app-home',
@@ -7,17 +8,9 @@ import { Component } from '@angular/core';
   styleUrl: './home.component.scss',
 })
 export class HomeComponent {
-  constructor() {
-    const currentDate = new Date();
-    const currentYear = currentDate.getFullYear();
-    const newYearJanuaryEnd = new Date(`${currentYear}-01-04`).getTime();
-    const newYearDecemberStart = new Date(`${currentYear}-12-20`).getTime();
-    const today = currentDate.getTime();
-    this.isNewYearToastVisible =
-      newYearDecemberStart <= today || today <= newYearJanuaryEnd;
-  }
+  private holidayService: HolidayService = inject(HolidayService);
 
-  isNewYearToastVisible: boolean = false;
+  isNewYearHolidaySeason = this.holidayService.isNewYearHolidaySeason();
 
   items = [
     {
