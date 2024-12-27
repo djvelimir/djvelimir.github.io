@@ -1,10 +1,11 @@
 import { Component, inject } from '@angular/core';
 import { HolidayService } from '../holiday.service';
 import { DataService } from '../data.service';
+import { SnowflakesComponent } from '../snowflakes/snowflakes.component';
 
 @Component({
   selector: 'app-home',
-  imports: [],
+  imports: [SnowflakesComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss',
 })
