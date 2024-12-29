@@ -18,6 +18,15 @@
         bounds. Welcome to my digital playground!
       </p>
     </div>
+    @if (isNewYearHolidaySeason) {
+    <div class="flex flex-wrap items-center justify-center">
+      <img
+        class="h-80 mb-24"
+        src="/santa-claus-sleigh-animate.svg"
+        alt="new year toast animate"
+      />
+    </div>
+    }
     <div class="flex flex-wrap">
       @for (item of demoSectionItems; track item) {
       <div
