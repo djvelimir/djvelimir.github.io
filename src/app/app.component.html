@@ -1,5 +1,37 @@
+@if (isNewYearHolidaySeason) {
+<app-snowflakes></app-snowflakes>
+}
+
 <app-header></app-header>
 
+@if (isNewYearHolidaySeason) {
+<section class="text-gray-400 body-font bg-gray-900">
+  <div class="container mx-auto">
+    <div class="flex flex-wrap items-center justify-center">
+      <img
+        class="h-80"
+        src="/santa-claus-sleigh-animate.svg"
+        alt="santa claus sleigh animate"
+      />
+    </div>
+  </div>
+</section>
+}
+
 <router-outlet></router-outlet>
+
+@if (isNewYearHolidaySeason) {
+<section class="text-gray-400 body-font bg-gray-900">
+  <div class="container mx-auto">
+    <div class="flex flex-wrap items-center justify-center">
+      <img
+        class="h-80"
+        src="/new-year-toast-animate.svg"
+        alt="new year toast animate"
+      />
+    </div>
+  </div>
+</section>
+}
 
 <app-footer></app-footer>
