@@ -1,5 +1,6 @@
-import { Component, inject } from '@angular/core';
-import { DataService } from '../data.service';
+import { Component } from '@angular/core';
+import { Demo } from '../models/demo';
+import { DemoService } from '../services/demo.service';
 
 @Component({
   selector: 'app-portfolio',
@@ -8,7 +9,11 @@ import { DataService } from '../data.service';
   styleUrl: './portfolio.component.scss',
 })
 export class PortfolioComponent {
-  private dataService: DataService = inject(DataService);
+  demos: Demo[] = [];
 
-  demoSectionItems = this.dataService.getDemoSectionItems();
+  constructor(private demoService: DemoService) {
+    this.demoService.getDemos().subscribe((data: Demo[]) => {
+      this.demos = data;
+    });
+  }
 }

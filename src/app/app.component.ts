@@ -1,8 +1,8 @@
-import { Component, inject } from '@angular/core';
+import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
-import { HolidayService } from './holiday.service';
+import { HolidayService } from './services/holiday.service';
 import { SnowflakesComponent } from './snowflakes/snowflakes.component';
 
 @Component({
@@ -17,8 +17,10 @@ import { SnowflakesComponent } from './snowflakes/snowflakes.component';
   styleUrl: './app.component.scss',
 })
 export class AppComponent {
-  private holidayService: HolidayService = inject(HolidayService);
-
-  isNewYearHolidaySeason = this.holidayService.isNewYearHolidaySeason();
   title = 'djvelimir.github.io';
+  isNewYearHolidaySeason: boolean;
+
+  constructor(private holidayService: HolidayService) {
+    this.isNewYearHolidaySeason = this.holidayService.isNewYearHolidaySeason();
+  }
 }

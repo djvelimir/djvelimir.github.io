@@ -1,6 +1,7 @@
-import { Component, inject } from '@angular/core';
+import { Component } from '@angular/core';
 import { RouterLink } from '@angular/router';
-import { DataService } from '../data.service';
+import { Category } from '../models/category';
+import { CategoryService } from '../services/category.service';
 
 @Component({
   selector: 'app-footer',
@@ -9,7 +10,11 @@ import { DataService } from '../data.service';
   styleUrl: './footer.component.scss',
 })
 export class FooterComponent {
-  private dataService: DataService = inject(DataService);
+  categories: Category[] = [];
 
-  footerCategories = this.dataService.getFooterCategories();
+  constructor(private categoryService: CategoryService) {
+    this.categoryService.getCategories().subscribe((data: Category[]) => {
+      this.categories = data;
+    });
+  }
 }
