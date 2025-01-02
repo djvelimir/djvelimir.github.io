@@ -12,8 +12,9 @@ export class PortfolioComponent {
   demos: Demo[] = [];
 
   constructor(private demoService: DemoService) {
-    this.demoService.getDemos().subscribe((data: Demo[]) => {
-      this.demos = data;
+    this.demoService.getDemos().subscribe({
+      next: (value: Demo[]) => (this.demos = value),
+      error: (err: any) => console.error(err),
     });
   }
 }

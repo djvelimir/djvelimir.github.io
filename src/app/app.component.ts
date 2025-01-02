@@ -18,9 +18,12 @@ import { SnowflakesComponent } from './snowflakes/snowflakes.component';
 })
 export class AppComponent {
   title = 'djvelimir.github.io';
-  isNewYearHolidaySeason: boolean;
+  isNewYearHolidaySeason: boolean = false;
 
   constructor(private holidayService: HolidayService) {
-    this.isNewYearHolidaySeason = this.holidayService.isNewYearHolidaySeason();
+    this.holidayService.isNewYearHolidaySeason().subscribe({
+      next: (value: boolean) => (this.isNewYearHolidaySeason = value),
+      error: (err: any) => console.error(err),
+    });
   }
 }
