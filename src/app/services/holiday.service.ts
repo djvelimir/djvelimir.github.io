@@ -5,8 +5,6 @@ import { Observable, of } from 'rxjs';
   providedIn: 'root',
 })
 export class HolidayService {
-  constructor() {}
-
   isNewYearHolidaySeason(): Observable<boolean> {
     const currentDate: Date = new Date();
     const currentYear = currentDate.getFullYear();
