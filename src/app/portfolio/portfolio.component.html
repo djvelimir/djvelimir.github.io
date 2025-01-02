@@ -16,15 +16,15 @@
       </p>
     </div>
     <div class="flex flex-wrap">
-      @for (item of demoSectionItems; track item) {
+      @for (demo of demos; track demo) {
       <div
         class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-800"
       >
         <h2 class="text-lg sm:text-xl text-white font-medium title-font mb-2">
-          {{ item.name }}
+          {{ demo.name }}
         </h2>
-        <p class="leading-relaxed text-base mb-4">{{ item.description }}</p>
-        <a [href]="item.url" class="text-green-400 inline-flex items-center"
+        <p class="leading-relaxed text-base mb-4">{{ demo.description }}</p>
+        <a [href]="demo.url" class="text-green-400 inline-flex items-center"
           >Demo
           <svg
             fill="none"

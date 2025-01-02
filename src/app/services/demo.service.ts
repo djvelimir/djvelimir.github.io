@@ -1,13 +1,15 @@
 import { Injectable } from '@angular/core';
+import { Observable, of } from 'rxjs';
+import { Demo } from '../models/demo';
 
 @Injectable({
   providedIn: 'root',
 })
-export class DataService {
+export class DemoService {
   constructor() {}
 
-  getDemoSectionItems() {
-    return [
+  getDemos(): Observable<Demo[]> {
+    return of([
       {
         name: 'Angular',
         description: `Welcome to our Angular App! This demo showcases the power of Angular's Routing module. With just a few lines of code, we've created a robust and scalable application that navigates between multiple pages. Explore our app and see how easily you can switch between different routes, each with its own unique component and functionality. Whether you're building a simple web page or a complex enterprise application, Angular's Routing module is the perfect tool to get you started.`,
@@ -38,103 +40,6 @@ export class DataService {
         description: `Welcome to Hugo's World! This website showcases the versatility and power of Hugo, a modern open-source static site generator. With Hugo, we've built a comprehensive platform for exploring the world of web development, featuring tutorials, documentation, and resources for developers of all levels. Dive in to learn how to create your own stunning website with Hugo!`,
         url: 'https://djvelimir.github.io/blog/',
       },
-    ];
-  }
-
-  getFooterCategories() {
-    return [
-      {
-        name: 'Frontend',
-        items: [
-          {
-            name: 'Angular',
-            url: 'https://github.com/djvelimir/demo-spa-angular',
-          },
-          { name: 'Vue', url: 'https://github.com/djvelimir/demo-spa-vue' },
-          { name: 'React', url: 'https://github.com/djvelimir/demo-spa-react' },
-          {
-            name: 'Vite + React',
-            url: 'https://github.com/djvelimir/demo-spa-react-vite',
-          },
-          {
-            name: 'Blazor',
-            url: 'https://github.com/djvelimir/demo-spa-blazor',
-          },
-          { name: 'Hugo', url: 'https://github.com/djvelimir/blog' },
-        ],
-      },
-      {
-        name: 'Java & Kotlin',
-        items: [
-          {
-            name: 'Java - CLI',
-            url: 'https://github.com/djvelimir/demo-java-cli',
-          },
-          {
-            name: 'Java - Swing',
-            url: 'https://github.com/djvelimir/demo-java-swing',
-          },
-          {
-            name: 'Java - FX',
-            url: 'https://github.com/djvelimir/demo-java-fx',
-          },
-          {
-            name: 'Java - Spring Boot',
-            url: 'https://github.com/djvelimir/demo-java-spring-boot',
-          },
-          {
-            name: 'Kotlin - CLI',
-            url: 'https://github.com/djvelimir/demo-kotlin-cli',
-          },
-        ],
-      },
-      {
-        name: '.NET',
-        items: [
-          {
-            name: 'C# .NET - CLI',
-            url: 'https://github.com/djvelimir/demo-dotnet-cli',
-          },
-          {
-            name: 'C# .NET - Benchmark',
-            url: 'https://github.com/djvelimir/demo-dotnet-benchmark',
-          },
-          {
-            name: 'C# .NET - WebApi',
-            url: 'https://github.com/djvelimir/demo-dotnet-web-api',
-          },
-        ],
-      },
-      {
-        name: 'Mobile',
-        items: [
-          {
-            name: 'Android',
-            url: 'https://github.com/djvelimir/demo-mobile-android',
-          },
-          { name: 'iOS', url: 'https://github.com/djvelimir/demo-mobile-ios' },
-        ],
-      },
-      {
-        name: 'Misc',
-        items: [
-          {
-            name: 'Assembly',
-            url: 'https://github.com/djvelimir/demo-assembly',
-          },
-          { name: 'C', url: 'https://github.com/djvelimir/demo-c' },
-          { name: 'C++', url: 'https://github.com/djvelimir/demo-cpp-cli' },
-          { name: 'Rust', url: 'https://github.com/djvelimir/demo-rust' },
-          { name: 'Go (Golang)', url: 'https://github.com/djvelimir/demo-go' },
-          {
-            name: 'Python',
-            url: 'https://github.com/djvelimir/demo-python-cli',
-          },
-          { name: 'Node.js', url: 'https://github.com/djvelimir/demo-node' },
-          { name: 'Ruby', url: 'https://github.com/djvelimir/demo-ruby-quine' },
-          { name: 'PHP', url: 'https://github.com/djvelimir/demo-php' },
-        ],
-      },
-    ];
+    ]);
   }
 }
