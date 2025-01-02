@@ -6,8 +6,6 @@ import { Demo } from '../models/demo';
   providedIn: 'root',
 })
 export class DemoService {
-  constructor() {}
-
   getDemos(): Observable<Demo[]> {
     return of([
       {

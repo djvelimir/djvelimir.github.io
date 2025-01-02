@@ -6,8 +6,6 @@ import { Category } from '../models/category';
   providedIn: 'root',
 })
 export class CategoryService {
-  constructor() {}
-
   getCategories(): Observable<Category[]> {
     return of([
       {

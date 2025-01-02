@@ -14,8 +14,8 @@ export class FooterComponent {
 
   constructor(private categoryService: CategoryService) {
     this.categoryService.getCategories().subscribe({
-      next: (value: Category[]) => (this.categories = value),
-      error: (err: any) => console.error(err),
+      next: (value) => (this.categories = value),
+      error: (err) => console.error(err),
     });
   }
 }
