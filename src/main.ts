@@ -1,7 +1,6 @@
 import { bootstrapApplication } from '@angular/platform-browser';
 import { appConfig } from '@app/app.config';
 import { AppComponent } from '@components/app/app.component';
-import 'animate.css';
 
 bootstrapApplication(AppComponent, appConfig).catch((err) =>
   console.error(err)
