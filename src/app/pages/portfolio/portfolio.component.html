@@ -1,6 +1,8 @@
 <section class="text-gray-400 body-font bg-gray-900">
   <div class="container px-5 py-24 mx-auto">
-    <div class="flex flex-col text-center w-full mb-20">
+    <div
+      class="flex flex-col text-center w-full mb-20 animate__animated animate__slideInDown"
+    >
       <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">
         Portfolio
       </h1>
@@ -18,7 +20,7 @@
     <div class="flex flex-wrap">
       @for (demo of demos; track demo) {
       <div
-        class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-800"
+        class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-800 animate__animated animate__zoomIn"
       >
         <h2 class="text-lg sm:text-xl text-white font-medium title-font mb-2">
           {{ demo.name }}
