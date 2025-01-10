@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Observable, shareReplay } from 'rxjs';
-import { Category } from '../models/category';
+import { Category } from '@models/category';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 
 @Injectable({

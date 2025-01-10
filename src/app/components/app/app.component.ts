@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { HeaderComponent } from './header/header.component';
-import { FooterComponent } from './footer/footer.component';
-import { HolidayService } from './services/holiday.service';
-import { SnowflakesComponent } from './snowflakes/snowflakes.component';
+import { SnowflakesComponent } from '@components/snowflakes/snowflakes.component';
+import { HeaderComponent } from '@components/header/header.component';
+import { FooterComponent } from '@components/footer/footer.component';
+import { HolidayService } from '@services/holiday/holiday.service';
 
 @Component({
   selector: 'app-root',
