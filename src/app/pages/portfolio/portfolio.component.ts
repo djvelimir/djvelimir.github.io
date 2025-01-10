@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { Demo } from '../models/demo';
-import { DemoService } from '../services/demo.service';
+import { Demo } from '@models/demo';
+import { DemoService } from '@services/demo/demo.service';
 
 @Component({
   selector: 'app-portfolio',

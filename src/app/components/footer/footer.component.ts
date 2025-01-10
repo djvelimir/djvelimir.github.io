@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { RouterLink } from '@angular/router';
-import { Category } from '../models/category';
-import { CategoryService } from '../services/category.service';
+import { Category } from '@models/category';
+import { CategoryService } from '@services/category/category.service';
 
 @Component({
   selector: 'app-footer',
