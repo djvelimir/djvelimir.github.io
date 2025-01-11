@@ -3,13 +3,13 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
-    "baseUrl": ".",
+    "baseUrl": "src",
     "paths": {
-      "@app/*": ["src/app/*"],
-      "@components/*": ["src/app/components/*"],
-      "@models/*": ["src/app/models/*"],
-      "@pages/*": ["src/app/pages/*"],
-      "@services/*": ["src/app/services/*"],
+      "@app/*": ["app/*"],
+      "@components/*": ["app/components/*"],
+      "@models/*": ["app/models/*"],
+      "@pages/*": ["app/pages/*"],
+      "@services/*": ["app/services/*"],
     },
     "outDir": "./dist/out-tsc",
     "strict": true,
