@@ -35,6 +35,35 @@
         class="mr-5 dark:hover:text-white hover:text-gray-900"
         >Portfolio</a
       >
+      @if (isDarkTheme()) {
+      <a
+        href="#"
+        class="mr-5 dark:hover:text-white hover:text-gray-900"
+        title="Switch to ligth mode"
+        (click)="setLight()"
+      >
+        <img
+          src="bulb-light-on.svg"
+          alt="bulb light on"
+          width="24"
+          height="24"
+        />
+      </a>
+      } @else {
+      <a
+        href="#"
+        class="mr-5 dark:hover:text-white hover:text-gray-900"
+        title="Switch to dark mode"
+        (click)="setDark()"
+      >
+        <img
+          src="bulb-light-off.svg"
+          alt="bulb light off"
+          width="24"
+          height="24"
+        />
+      </a>
+      }
     </nav>
   </div>
 </header>
