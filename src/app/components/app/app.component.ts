@@ -17,7 +17,6 @@ import { HolidayService } from '@services/holiday/holiday.service';
   styleUrl: './app.component.scss',
 })
 export class AppComponent {
-  title = 'djvelimir.github.io';
   isNewYearHolidaySeason = false;
 
   constructor(private holidayService: HolidayService) {
