@@ -10,9 +10,11 @@ import { CategoryService } from '@services/category/category.service';
   styleUrl: './footer.component.scss',
 })
 export class FooterComponent {
+  currentYear: number;
   categories: Category[] = [];
 
   constructor(private categoryService: CategoryService) {
+    this.currentYear = new Date().getFullYear();
     this.categoryService.getCategories().subscribe({
       next: (value) => (this.categories = value),
       error: (err) => console.error(err),
