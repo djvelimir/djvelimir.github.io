@@ -1,9 +1,11 @@
-<section class="text-gray-400 body-font bg-gray-900">
+<section class="dark:text-gray-400 body-font dark:bg-gray-900 text-gray-600">
   <div class="container px-5 py-24 mx-auto">
     <div
       class="flex flex-col text-center w-full mb-20 animate__animated animate__slideInDown"
     >
-      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">
+      <h1
+        class="sm:text-3xl text-2xl font-medium title-font mb-4 dark:text-white text-gray-900"
+      >
         Portfolio
       </h1>
       <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
@@ -20,13 +22,17 @@
     <div class="flex flex-wrap">
       @for (demo of demos; track demo) {
       <div
-        class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-800 animate__animated animate__zoomIn"
+        class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 dark:border-gray-800 border-gray-200 border-opacity-60 animate__animated animate__zoomIn"
       >
-        <h2 class="text-lg sm:text-xl text-white font-medium title-font mb-2">
+        <h2
+          class="text-lg sm:text-xl dark:text-white text-gray-900 font-medium title-font mb-2"
+        >
           {{ demo.name }}
         </h2>
         <p class="leading-relaxed text-base mb-4">{{ demo.description }}</p>
-        <a [href]="demo.url" class="text-green-400 inline-flex items-center"
+        <a
+          [href]="demo.url"
+          class="dark:text-green-400 text-green-500 inline-flex items-center"
           >Demo
           <svg
             fill="none"

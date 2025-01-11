@@ -1,4 +1,4 @@
-<footer class="text-gray-400 bg-gray-900 body-font">
+<footer class="dark:text-gray-400 dark:bg-gray-900 text-gray-600 body-font">
   <div
     class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col"
   >
@@ -6,7 +6,7 @@
       <a
         ariaCurrentWhenActive="page"
         routerLink="/"
-        class="flex title-font font-medium items-center md:justify-start justify-center text-white"
+        class="flex title-font font-medium items-center md:justify-start justify-center dark:text-white text-gray-900"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -34,7 +34,7 @@
       @for (category of categories; track category) {
       <div class="lg:w-1/4 md:w-1/2 w-full px-4">
         <h2
-          class="title-font font-medium text-white tracking-widest text-sm mb-3"
+          class="title-font font-medium dark:text-white text-gray-900 tracking-widest text-sm mb-3"
         >
           {{ category.name }}
         </h2>
@@ -42,9 +42,11 @@
           <ul>
             @for (item of category.items; track item) {
             <li>
-              <a [href]="item.url" class="text-gray-400 hover:text-white">{{
-                item.name
-              }}</a>
+              <a
+                [href]="item.url"
+                class="dark:text-gray-400 dark:hover:text-white text-gray-600 hover:text-gray-800"
+                >{{ item.name }}</a
+              >
             </li>
             }
           </ul>
@@ -53,11 +55,13 @@
       }
     </div>
   </div>
-  <div class="bg-gray-800 bg-opacity-75">
+  <div class="dark:bg-gray-800 dark:bg-opacity-75 bg-gray-100">
     <div
       class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row"
     >
-      <p class="text-gray-400 text-sm text-center sm:text-left">
+      <p
+        class="dark:text-gray-400 text-gray-500 text-sm text-center sm:text-left"
+      >
         © 2024 djvelimir.github.io
       </p>
       <span
@@ -65,7 +69,7 @@
       >
         <a
           href="https://github.com/djvelimir"
-          class="ml-3 text-gray-400"
+          class="ml-3 dark:text-gray-400 text-gray-500"
           title="GitHub link"
         >
           <svg
@@ -86,7 +90,7 @@
         </a>
         <a
           href="https://www.youtube.com/@djvelimir"
-          class="ml-3 text-gray-400"
+          class="ml-3 dark:text-gray-400 text-gray-500"
           title="YouTube link"
         >
           <svg
@@ -108,7 +112,7 @@
         </a>
         <a
           href="https://linkedin.com/in/djvelimir"
-          class="ml-3 text-gray-400"
+          class="ml-3 dark:text-gray-400 text-gray-500"
           title="LinkedIn link"
         >
           <svg
