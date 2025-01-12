@@ -1,10 +1,12 @@
 import { Component } from '@angular/core';
 import { RouterLink, RouterLinkActive } from '@angular/router';
 import { ThemeService } from '@services/theme/theme.service';
+import { LogoComponent } from '@components/logo/logo.component';
+import { BulbComponent } from '@components/bulb/bulb.component';
 
 @Component({
   selector: 'app-header',
-  imports: [RouterLink, RouterLinkActive],
+  imports: [RouterLink, RouterLinkActive, LogoComponent, BulbComponent],
   templateUrl: './header.component.html',
   styleUrl: './header.component.scss',
 })
