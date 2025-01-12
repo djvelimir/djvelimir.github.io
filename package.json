@@ -8,9 +8,10 @@
     "build:deploy": "ng build --base-href https://djvelimir.github.io/",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
+    "test:ci": "ng test --watch=false",
+    "lint": "ng lint",
     "predeploy": "npm run build:deploy",
-    "deploy": "gh-pages -d dist/djvelimir.github.io/browser",
-    "lint": "ng lint"
+    "deploy": "gh-pages -d dist/djvelimir.github.io/browser"
   },
   "private": true,
   "dependencies": {
