@@ -1,6 +1,9 @@
 import {
   animate,
+  animateChild,
+  group,
   query,
+  sequence,
   style,
   transition,
   trigger,
@@ -8,12 +11,21 @@ import {
 
 export const routeTransition = trigger('routeTraansition', [
   transition('* => *', [
-    query(':enter', [style({ opacity: 0, scale: 0.9 })], { optional: true }),
-    query(':leave', [animate('0.001s', style({ opacity: 0, scale: 0.9 }))], {
-      optional: true,
-    }),
-    query(':enter', [animate('0.2s', style({ opacity: 1, scale: 1 }))], {
-      optional: true,
-    }),
+    query(':enter, :leave', style({ position: 'fixed', width: '100%' })),
+    query(':enter', style({ transform: 'translateX(100%)' })),
+    sequence([
+      query(':leave', animateChild()),
+      group([
+        query(':leave', [
+          style({ transform: 'translateX(0%)' }),
+          animate('750ms', style({ transform: 'translateX(-100%)' })),
+        ]),
+        query(':enter', [
+          style({ transform: 'translateX(100%)' }),
+          animate('750ms', style({ transform: 'translateX(0%)' })),
+        ]),
+      ]),
+      query(':enter', animateChild()),
+    ]),
   ]),
 ]);
