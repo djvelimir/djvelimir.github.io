@@ -18,7 +18,9 @@
 </section>
 }
 
-<router-outlet></router-outlet>
+<div [@routeTraansition]="route.snapshot.data" style="display: contents">
+  <router-outlet></router-outlet>
+</div>
 
 @if (isNewYearHolidaySeason) {
 <section class="dark:text-gray-400 body-font dark:bg-gray-900 text-gray-600">
