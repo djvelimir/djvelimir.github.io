@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, RouterOutlet } from '@angular/router';
 import { SnowflakesComponent } from '@components/snowflakes/snowflakes.component';
 import { HeaderComponent } from '@components/header/header.component';
@@ -18,8 +18,9 @@ import { routeTransition } from '@app/route-transition';
   styleUrl: './app.component.scss',
   animations: [routeTransition],
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
   isNewYearHolidaySeason = false;
+  isRouteTransitionDisabled = true;
 
   constructor(
     private holidayService: HolidayService,
@@ -28,6 +29,12 @@ export class AppComponent {
     this.holidayService.isNewYearHolidaySeason().subscribe({
       next: (value) => (this.isNewYearHolidaySeason = value),
       error: (err) => console.error(err),
+    });
+  }
+
+  ngOnInit() {
+    setTimeout(() => {
+      this.isRouteTransitionDisabled = false;
     });
   }
 }
