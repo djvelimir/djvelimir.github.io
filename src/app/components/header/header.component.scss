@@ -1,3 +1,6 @@
+@reference "tailwindcss";
+@variant dark (&:where(.dark, .dark *));
+
 .active {
   @apply dark:text-white text-gray-900 scale-x-110 underline underline-offset-4 decoration-2 transition;
 }
