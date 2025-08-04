@@ -82,6 +82,29 @@
         }
       </div>
     </div>
+
+    <div class="mt-4">
+      <h2
+        class="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900 dark:text-white"
+      >
+        {{ download.instructions.title }}
+      </h2>
+
+      @for (platform of download.instructions.platforms; track platform) {
+      <div class="mt-24">
+        <h1
+          class="sm:text-3xl text-xl font-medium title-font mb-2 text-gray-900 dark:text-white"
+        >
+          {{ platform.title }}
+        </h1>
+        <p
+          class="lg:w-2/3 mx-auto leading-relaxed dark:text-base text-gray-500"
+        >
+          {{ platform.description }}
+        </p>
+      </div>
+      }
+    </div>
     }
   </div>
 </section>
