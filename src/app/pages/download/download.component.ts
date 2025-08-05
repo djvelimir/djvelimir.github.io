@@ -17,48 +17,78 @@ export class DownloadComponent {
         {
           os: 'Linux',
           title: 'DEB / RPM',
-          links: [
+          architectures: [
             {
-              description: 'For Debian, Ubuntu, Linux Mint:',
-              title: 'minesweeper_1.0.0_amd64.deb',
-              url: 'https://drive.google.com/file/d/1Y1cYiggd05p5rx86L4YbZcGkR9zj8JxE/view?usp=share_link',
+              title: 'x64',
+              links: [
+                {
+                  description: 'For Debian, Ubuntu, Linux Mint:',
+                  title: 'minesweeper_1.0.0_amd64.deb',
+                  url: 'https://drive.google.com/file/d/1Y1cYiggd05p5rx86L4YbZcGkR9zj8JxE/view?usp=share_link',
+                },
+                {
+                  description: 'For Fedora, RHEL, CentOS:',
+                  title: 'minesweeper-1.0.0-1.x86_64.rpm',
+                  url: 'https://drive.google.com/file/d/1vyeGsuK2NlJPf4ArCFgG7k_ABdDvpk5S/view?usp=share_link',
+                },
+              ],
             },
             {
-              description: 'For Fedora, RHEL, CentOS:',
-              title: 'minesweeper-1.0.0-1.x86_64.rpm',
-              url: 'https://drive.google.com/file/d/1vyeGsuK2NlJPf4ArCFgG7k_ABdDvpk5S/view?usp=share_link',
+              title: 'ARM64',
+              links: [
+                {
+                  description: 'For Debian, Ubuntu, Linux Mint:',
+                  title: 'minesweeper_1.0.0_arm64.deb',
+                  url: 'https://drive.google.com/file/d/1cLf5_mzY2d6xAoXoz0Sin8im8UfwkIbD/view?usp=share_link',
+                },
+                {
+                  description: 'For Fedora, RHEL, CentOS:',
+                  title: 'minesweeper-1.0.0-1.aarch64.rpm',
+                  url: 'https://drive.google.com/file/d/1MWLfLNten5o-UGAm04t61QC8w-OF3cFw/view?usp=share_link',
+                },
+              ],
             },
           ],
         },
         {
           os: 'macOS',
           title: 'DMG / PKG',
-          links: [
+          architectures: [
             {
-              description: 'Standard Installer:',
-              title: 'Minesweeper-1.0.0.dmg',
-              url: 'https://drive.google.com/file/d/1rUZftETw6Pjrznhh-9qZJ3P41jEBZCGZ/view?usp=share_link',
-            },
-            {
-              description: 'For MDM/IT deployments:',
-              title: 'Minesweeper-1.0.0.pkg',
-              url: 'https://drive.google.com/file/d/1KV5C7pSeQ4hn_xDfYT_SaHggaXXusWWZ/view?usp=share_link',
+              title: 'x64',
+              links: [
+                {
+                  description: 'Standard Installer:',
+                  title: 'Minesweeper-1.0.0.dmg',
+                  url: 'https://drive.google.com/file/d/1rUZftETw6Pjrznhh-9qZJ3P41jEBZCGZ/view?usp=share_link',
+                },
+                {
+                  description: 'For MDM/IT deployments:',
+                  title: 'Minesweeper-1.0.0.pkg',
+                  url: 'https://drive.google.com/file/d/1KV5C7pSeQ4hn_xDfYT_SaHggaXXusWWZ/view?usp=share_link',
+                },
+              ],
             },
           ],
         },
         {
           os: 'Windows',
           title: 'EXE / MSI',
-          links: [
+          architectures: [
             {
-              description: 'Quick Installer:',
-              title: 'Minesweeper-1.0.0.exe',
-              url: 'https://drive.google.com/file/d/1gbkJw3MGjTpNRdw3rzGIICBe0QJGNtNZ/view?usp=share_link',
-            },
-            {
-              description: 'For Admins (silent installs):',
-              title: 'Minesweeper-1.0.0.msi',
-              url: 'https://drive.google.com/file/d/1CDnjshNg8LrwrKzZvQ0qM5GdV8X-aZRI/view?usp=share_link',
+              title: 'x64',
+              links: [
+                {
+                  description: 'Quick Installer:',
+                  title: 'Minesweeper-1.0.0.exe',
+                  url: 'https://drive.google.com/file/d/1gbkJw3MGjTpNRdw3rzGIICBe0QJGNtNZ/view?usp=share_link',
+                },
+                {
+                  description: 'For Admins (silent installs):',
+                  title: 'Minesweeper-1.0.0.msi',
+                  url: 'https://drive.google.com/file/d/1CDnjshNg8LrwrKzZvQ0qM5GdV8X-aZRI/view?usp=share_link',
+                },
+              ],
             },
           ],
         },
