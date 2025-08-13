@@ -12,7 +12,8 @@ export class DownloadComponent {
     {
       title: 'Minesweeper',
       description:
-        "Bring the classic Minesweeper experience to your desktop, now available with easy-to-use installers for all major platforms. Enjoy smooth tile revealing, precise mine flagging, and advanced features like chording for quick gameplay. The interface is clean and intuitive, enhanced with satisfying sound effects, a ticking timer, and optional background sounds. Numbered tiles are color-coded for clear visibility, just like in the original game. Choose your installer, run it, and start playing. Whether you're on Windows, macOS, or Linux, you're just a few clicks away from addictive puzzle-solving fun.",
+        "I've developed a classic Minesweeper clone in Java that faithfully replicates the original game while introducing several enhancements for a smoother experience. The game includes a guaranteed safe first click, intuitive controls for revealing tiles, flagging mines, and chording, and a configurable game menu with multiple difficulty levels, including a historically accurate beginner mode. Players can enable or disable color-coded numbers, sound effects, background music with selectable themes, and even choose between a classic smiley face or a cat icon for the interface. A ticking timer sound is also available for added challenge. The game supports multiple languages, including English, Estonian, French, Finnish, German, Greek, Italian, Portuguese (Brazil), Portuguese (Portugal), Russian, Serbian, Serbian (Latin), and Spanish. It comes with easy-to-use installers for Windows, macOS, and Linux. Just install and start playing. This was a fun project that allowed me to revisit classic game logic while refining the user experience, and I'm excited to share it.",
+      photo: '/pages/download/minesweeper.webp',
       platforms: [
         {
           os: 'Linux',
@@ -23,13 +24,13 @@ export class DownloadComponent {
               links: [
                 {
                   description: 'For Debian, Ubuntu, Linux Mint:',
-                  title: 'minesweeper_1.0.0_amd64.deb',
-                  url: 'https://drive.google.com/file/d/1Y1cYiggd05p5rx86L4YbZcGkR9zj8JxE/view?usp=share_link',
+                  title: 'minesweeper_1.1.0_amd64.deb',
+                  url: 'https://drive.google.com/file/d/1ByUxoo_0Gv1BbrtKyytgb1_HZVbANbsX/view?usp=share_link',
                 },
                 {
                   description: 'For Fedora, RHEL, CentOS:',
-                  title: 'minesweeper-1.0.0-1.x86_64.rpm',
-                  url: 'https://drive.google.com/file/d/1vyeGsuK2NlJPf4ArCFgG7k_ABdDvpk5S/view?usp=share_link',
+                  title: 'minesweeper-1.1.0-1.x86_64.rpm',
+                  url: 'https://drive.google.com/file/d/1HrA8gEKBLP3EtQsdRFwDrlI0tYelx-on/view?usp=share_link',
                 },
               ],
             },
@@ -38,13 +39,13 @@ export class DownloadComponent {
               links: [
                 {
                   description: 'For Debian, Ubuntu, Linux Mint:',
-                  title: 'minesweeper_1.0.0_arm64.deb',
-                  url: 'https://drive.google.com/file/d/1cLf5_mzY2d6xAoXoz0Sin8im8UfwkIbD/view?usp=share_link',
+                  title: 'minesweeper_1.1.0_arm64.deb',
+                  url: 'https://drive.google.com/file/d/1I2jvvZ6mAiJVYymCvEvBEsNWSIbkUD9-/view?usp=share_link',
                 },
                 {
                   description: 'For Fedora, RHEL, CentOS:',
-                  title: 'minesweeper-1.0.0-1.aarch64.rpm',
-                  url: 'https://drive.google.com/file/d/1MWLfLNten5o-UGAm04t61QC8w-OF3cFw/view?usp=share_link',
+                  title: 'minesweeper-1.1.0-1.aarch64.rpm',
+                  url: 'https://drive.google.com/file/d/1SrCQIi89yvSJ1uIWLBBiUlLPITKA1khf/view?usp=share_link',
                 },
               ],
             },
@@ -59,13 +60,13 @@ export class DownloadComponent {
               links: [
                 {
                   description: 'Standard Installer:',
-                  title: 'Minesweeper-1.0.0.dmg',
-                  url: 'https://drive.google.com/file/d/1rUZftETw6Pjrznhh-9qZJ3P41jEBZCGZ/view?usp=share_link',
+                  title: 'Minesweeper-1.1.0.dmg',
+                  url: 'https://drive.google.com/file/d/1euPhcCe2W5gd-9o3ij9L_X8HvLNk7jMZ/view?usp=share_link',
                 },
                 {
                   description: 'For MDM/IT deployments:',
-                  title: 'Minesweeper-1.0.0.pkg',
-                  url: 'https://drive.google.com/file/d/1KV5C7pSeQ4hn_xDfYT_SaHggaXXusWWZ/view?usp=share_link',
+                  title: 'Minesweeper-1.1.0.pkg',
+                  url: 'https://drive.google.com/file/d/1poW1Yfqs5OU9GMkGYmInMw6-AoJ3IkVA/view?usp=share_link',
                 },
               ],
             },
@@ -80,13 +81,13 @@ export class DownloadComponent {
               links: [
                 {
                   description: 'Quick Installer:',
-                  title: 'Minesweeper-1.0.0.exe',
-                  url: 'https://drive.google.com/file/d/1gbkJw3MGjTpNRdw3rzGIICBe0QJGNtNZ/view?usp=share_link',
+                  title: 'Minesweeper-1.1.0.exe',
+                  url: 'https://drive.google.com/file/d/1A9VxRpzO91Dc4Vp8w2gNwbIrZHNY7zRf/view?usp=share_link',
                 },
                 {
                   description: 'For Admins (silent installs):',
-                  title: 'Minesweeper-1.0.0.msi',
-                  url: 'https://drive.google.com/file/d/1CDnjshNg8LrwrKzZvQ0qM5GdV8X-aZRI/view?usp=share_link',
+                  title: 'Minesweeper-1.1.0.msi',
+                  url: 'https://drive.google.com/file/d/1uqm5EmgD2tjKCBjHv73hGhwZiUvO6vAJ/view?usp=share_link',
                 },
               ],
             },
