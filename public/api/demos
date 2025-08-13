@@ -30,8 +30,8 @@
         "url": "https://djvelimir.github.io/blog/"
     },
     {
-        "name": "Java Swing",
-        "description": "Java Swing implementation of Minesweeper with sound effects, which supports various game modes, including Beginner Historical 8x8 (10 mines), Beginner, Intermediate, and Expert. This implementation provides a playable Minesweeper game with a graphical user interface and includes features like mine planting, flagging, cell opening, and game outcome detection.",
-        "url": "https://www.youtube.com/watch?v=otvqrhIk7t0&list=PL0DJg8iZ3KWl6yjbE-lr_kLiiwMAWuua4"
+        "name": "Java",
+        "description": "Java implementation of Minesweeper with sound effects, which supports various game modes, including Beginner Historical 8x8 (10 mines), Beginner, Intermediate, and Expert. This implementation provides a playable Minesweeper game with a graphical user interface and includes features like mine planting, flagging, cell opening, and game outcome detection.",
+        "url": "https://djvelimir.github.io/#/download"
     }
 ]
