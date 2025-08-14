@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { Demo } from '@models/demo';
 import { DemoService } from '@services/demo/demo.service';
 
@@ -9,9 +9,11 @@ import { DemoService } from '@services/demo/demo.service';
   styleUrl: './portfolio.component.scss',
 })
 export class PortfolioComponent {
+  private demoService = inject(DemoService);
+
   demos: Demo[] = [];
 
-  constructor(private demoService: DemoService) {
+  constructor() {
     this.demoService.getDemos().subscribe({
       next: (value) => (this.demos = value),
       error: (err) => console.error(err),
