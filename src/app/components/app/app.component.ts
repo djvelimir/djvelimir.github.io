@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, inject } from '@angular/core';
 import { ActivatedRoute, RouterOutlet } from '@angular/router';
 import { SnowflakesComponent } from '@components/snowflakes/snowflakes.component';
 import { HeaderComponent } from '@components/header/header.component';
@@ -19,13 +19,13 @@ import { routeTransition } from '@app/route-transition';
   animations: [routeTransition],
 })
 export class AppComponent implements OnInit {
+  private holidayService = inject(HolidayService);
+  protected route = inject(ActivatedRoute);
+
   isNewYearHolidaySeason = false;
   isRouteTransitionDisabled = true;
 
-  constructor(
-    private holidayService: HolidayService,
-    protected route: ActivatedRoute
-  ) {
+  constructor() {
     this.holidayService.isNewYearHolidaySeason().subscribe({
       next: (value) => (this.isNewYearHolidaySeason = value),
       error: (err) => console.error(err),

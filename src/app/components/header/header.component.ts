@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { RouterLink, RouterLinkActive } from '@angular/router';
 import { ThemeService } from '@services/theme/theme.service';
 import { LogoComponent } from '@components/logo/logo.component';
@@ -11,7 +11,11 @@ import { BulbComponent } from '@components/bulb/bulb.component';
   styleUrl: './header.component.scss',
 })
 export class HeaderComponent {
-  constructor(private themeService: ThemeService) {
+  private themeService = inject(ThemeService);
+
+  constructor() {
+    const themeService = this.themeService;
+
     themeService.applyCurrentTheme();
   }
 

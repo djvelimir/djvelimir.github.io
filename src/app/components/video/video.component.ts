@@ -1,4 +1,10 @@
-import { Component, Input, OnChanges, SimpleChanges } from '@angular/core';
+import {
+  Component,
+  Input,
+  OnChanges,
+  SimpleChanges,
+  inject,
+} from '@angular/core';
 import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 
 @Component({
@@ -8,10 +14,10 @@ import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
   styleUrl: './video.component.scss',
 })
 export class VideoComponent implements OnChanges {
+  private sanitizer = inject(DomSanitizer);
+
   @Input() rawUrl = '';
   videoUrl: SafeResourceUrl | null = null;
-
-  constructor(private sanitizer: DomSanitizer) {}
 
   ngOnChanges(changes: SimpleChanges): void {
     if (changes['rawUrl'] && this.rawUrl) {

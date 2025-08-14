@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { Category } from '@models/category';
 import { CategoryService } from '@services/category/category.service';
@@ -11,10 +11,12 @@ import { LogoComponent } from '@components/logo/logo.component';
   styleUrl: './footer.component.scss',
 })
 export class FooterComponent {
+  private categoryService = inject(CategoryService);
+
   currentYear: number;
   categories: Category[] = [];
 
-  constructor(private categoryService: CategoryService) {
+  constructor() {
     this.currentYear = new Date().getFullYear();
     this.categoryService.getCategories().subscribe({
       next: (value) => (this.categories = value),
