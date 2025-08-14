@@ -11,8 +11,14 @@ export class DownloadComponent {
   downloadList = [
     {
       title: 'Minesweeper',
-      description:
-        "I've developed a classic Minesweeper clone in Java that faithfully replicates the original game while introducing several enhancements for a smoother experience. The game includes a guaranteed safe first click, intuitive controls for revealing tiles, flagging mines, and chording, and a configurable game menu with multiple difficulty levels, including a historically accurate beginner mode. Players can enable or disable color-coded numbers, sound effects, background music with selectable themes, and even choose between a classic smiley face or a cat icon for the interface. A ticking timer sound is also available for added challenge. The game supports multiple languages, including English, Estonian, French, Finnish, German, Greek, Italian, Portuguese (Brazil), Portuguese (Portugal), Russian, Serbian, Serbian (Latin), and Spanish. It comes with easy-to-use installers for Windows, macOS, and Linux. Just install and start playing. This was a fun project that allowed me to revisit classic game logic while refining the user experience, and I'm excited to share it.",
+      descriptions: [
+        "I've developed a classic Minesweeper clone in Java that faithfully replicates the original game while introducing several enhancements for a smoother experience.",
+        'The game includes a guaranteed safe first click, intuitive controls for revealing tiles, flagging mines, and chording, and a configurable game menu with multiple difficulty levels, including a historically accurate beginner mode.',
+        'Players can enable or disable color-coded numbers, sound effects, background music with selectable themes, and even choose between a classic smiley face or a cat icon for the interface. A ticking timer sound is also available for added challenge.',
+        'The game supports multiple languages, including English, Estonian, French, Finnish, German, Greek, Italian, Portuguese (Brazil), Portuguese (Portugal), Russian, Serbian, Serbian (Latin), and Spanish.',
+        'It comes with easy-to-use installers for Windows, macOS, and Linux. Just install and start playing.',
+        "This was a fun project that allowed me to revisit classic game logic while refining the user experience, and I'm excited to share it.",
+      ],
       photo: '/pages/download/minesweeper.webp',
       platforms: [
         {
@@ -121,18 +127,22 @@ export class DownloadComponent {
         platforms: [
           {
             title: 'Linux',
-            description:
-              "For Linux users, choose the package that matches your distribution. If you're using a Debian-based system like Debian, Ubuntu or Linux Mint, download the .deb file. You can install it using your system's software installer or a terminal with administrative privileges. On RPM-based systems like Fedora, RHEL or CentOS, download the .rpm file and use your system's package manager to install it. After installation, you can launch the game from your applications menu. If the game’s interface appears too small or improperly scaled on high-resolution screens, you can adjust the UI scaling by setting an environment variable. You can add the line export _JAVA_OPTIONS='-Dsun.java2d.uiScale=2.0' to your user’s shell configuration file (like ~/.bashrc or ~/.profile) for a per-user effect, or add it to a global configuration file (such as /etc/environment) to apply system-wide. After making this change, you will need to log out and log back in for the new environment variable to take effect.",
+            descriptions: [
+              "For Linux users, choose the package that matches your distribution. If you're using a Debian-based system like Debian, Ubuntu or Linux Mint, download the .deb file. You can install it using your system's software installer or a terminal with administrative privileges. On RPM-based systems like Fedora, RHEL or CentOS, download the .rpm file and use your system's package manager to install it. After installation, you can launch the game from your applications menu.",
+              "If the game's interface appears too small or improperly scaled on high-resolution screens, you can adjust the UI scaling by setting an environment variable. You can add the line export _JAVA_OPTIONS='-Dsun.java2d.uiScale=2.0' to your user's shell configuration file (like ~/.bashrc or ~/.profile) for a per-user effect, or add it to a global configuration file (such as /etc/environment) to apply system-wide. After making this change, you will need to log out and log back in for the new environment variable to take effect.",
+            ],
           },
           {
             title: 'macOS',
-            description:
+            descriptions: [
               'On macOS, you have the option of using a .dmg or a .pkg installer. If you download the .dmg, open it and drag the Minesweeper app into your Applications folder. If you prefer the .pkg, simply double-click the file to run the guided installer. Once installed, the game will be available in Launchpad or your Applications folder.',
+            ],
           },
           {
             title: 'Windows',
-            description:
+            descriptions: [
               'To install the game on Windows, download either the .exe or .msi installer. Double-click the file to start the installation process and follow the setup wizard. Once installation is complete, you can launch the game from the Start Menu or your desktop.',
+            ],
           },
         ],
       },

@@ -3,15 +3,18 @@
 >
   <div class="container px-5 py-24 mx-auto">
     @for (download of downloadList; track download) {
-    <div class="flex flex-col text-center w-full mb-20">
+    <div class="flex flex-col w-full mb-20">
       <h1
-        class="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900 dark:text-white"
+        class="sm:text-4xl text-3xl font-medium title-font mb-2 text-center text-gray-900 dark:text-white"
       >
         {{ download.title }}
       </h1>
-      <p class="lg:w-2/3 mx-auto leading-relaxed dark:text-base text-gray-500">
-        {{ download.description }}
+
+      @for(description of download.descriptions; track description) {
+      <p class="lg:w-2/3 mx-auto leading-relaxed text-base mb-4">
+        {{ description }}
       </p>
+      }
     </div>
 
     <div class="flex flex-wrap mb-20">
@@ -116,11 +119,12 @@
         >
           {{ platform.title }}
         </h1>
-        <p
-          class="lg:w-2/3 mx-auto leading-relaxed dark:text-base text-gray-500"
-        >
-          {{ platform.description }}
+
+        @for (description of platform.descriptions; track description) {
+        <p class="lg:w-2/3 mx-auto leading-relaxed text-base mb-4">
+          {{ description }}
         </p>
+        }
       </div>
       }
     </div>
