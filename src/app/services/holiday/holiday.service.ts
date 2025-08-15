@@ -8,7 +8,7 @@ export class HolidayService {
   isNewYearHolidaySeason(): Observable<boolean> {
     const currentDate: Date = new Date();
     const currentYear = currentDate.getFullYear();
-    const newYearJanuaryEnd = new Date(`${currentYear}-01-04`).getTime();
+    const newYearJanuaryEnd = new Date(`${currentYear}-01-20`).getTime();
     const newYearDecemberStart = new Date(`${currentYear}-12-20`).getTime();
     const today = currentDate.getTime();
 
