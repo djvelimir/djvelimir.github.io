@@ -29,12 +29,12 @@ export class DownloadComponent {
               title: 'x64',
               links: [
                 {
-                  description: 'For Debian, Ubuntu, Linux Mint:',
+                  description: 'Ubuntu 24.04:',
                   title: 'minesweeper_1.1.0_amd64.deb',
                   url: 'https://drive.google.com/file/d/1ByUxoo_0Gv1BbrtKyytgb1_HZVbANbsX/view?usp=share_link',
                 },
                 {
-                  description: 'For Fedora, RHEL, CentOS:',
+                  description: 'Fedora 42:',
                   title: 'minesweeper-1.1.0-1.x86_64.rpm',
                   url: 'https://drive.google.com/file/d/1HrA8gEKBLP3EtQsdRFwDrlI0tYelx-on/view?usp=share_link',
                 },
@@ -44,12 +44,12 @@ export class DownloadComponent {
               title: 'ARM64',
               links: [
                 {
-                  description: 'For Debian, Ubuntu, Linux Mint:',
+                  description: 'Ubuntu 24.04:',
                   title: 'minesweeper_1.1.0_arm64.deb',
                   url: 'https://drive.google.com/file/d/1I2jvvZ6mAiJVYymCvEvBEsNWSIbkUD9-/view?usp=share_link',
                 },
                 {
-                  description: 'For Fedora, RHEL, CentOS:',
+                  description: 'Fedora 42:',
                   title: 'minesweeper-1.1.0-1.aarch64.rpm',
                   url: 'https://drive.google.com/file/d/1SrCQIi89yvSJ1uIWLBBiUlLPITKA1khf/view?usp=share_link',
                 },
@@ -128,7 +128,7 @@ export class DownloadComponent {
           {
             title: 'Linux',
             descriptions: [
-              "For Linux users, choose the package that matches your distribution. If you're using a Debian-based system like Debian, Ubuntu or Linux Mint, download the .deb file. You can install it using your system's software installer or a terminal with administrative privileges. On RPM-based systems like Fedora, RHEL or CentOS, download the .rpm file and use your system's package manager to install it. After installation, you can launch the game from your applications menu.",
+              "For Linux users, choose the package that matches your distribution. You can install it using your system's software installer or a terminal with administrative privileges. After installation, you can launch the game from your applications menu.",
               "If the game's interface appears too small or improperly scaled on high-resolution screens, you can adjust the UI scaling by setting an environment variable. You can add the line export _JAVA_OPTIONS='-Dsun.java2d.uiScale=2.0' to your user's shell configuration file (like ~/.bashrc or ~/.profile) for a per-user effect, or add it to a global configuration file (such as /etc/environment) to apply system-wide. After making this change, you will need to log out and log back in for the new environment variable to take effect.",
             ],
           },
