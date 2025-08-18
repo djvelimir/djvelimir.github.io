@@ -29,6 +29,11 @@ export class DownloadComponent {
               title: 'x64',
               links: [
                 {
+                  description: 'Debian 13:',
+                  title: 'minesweeper_1.1.0_amd64.deb',
+                  url: 'https://drive.google.com/file/d/1qD3SzsTsFrtZOCgMdjdphuugxW9bdWxb/view?usp=share_link',
+                },
+                {
                   description: 'Ubuntu 24.04:',
                   title: 'minesweeper_1.1.0_amd64.deb',
                   url: 'https://drive.google.com/file/d/1ByUxoo_0Gv1BbrtKyytgb1_HZVbANbsX/view?usp=share_link',
@@ -43,6 +48,11 @@ export class DownloadComponent {
             {
               title: 'ARM64',
               links: [
+                {
+                  description: 'Debian 13:',
+                  title: 'minesweeper_1.1.0_arm64.deb',
+                  url: 'https://drive.google.com/file/d/1AoYfjazrRAalmQn-bAIu96bqvIvPDerg/view?usp=share_link',
+                },
                 {
                   description: 'Ubuntu 24.04:',
                   title: 'minesweeper_1.1.0_arm64.deb',
