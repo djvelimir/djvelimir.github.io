@@ -29,17 +29,17 @@ export class DownloadComponent {
               title: 'x64',
               links: [
                 {
-                  description: 'Debian 13:',
+                  description: 'Debian 13',
                   title: 'minesweeper_1.1.0_amd64.deb',
                   url: 'https://drive.google.com/file/d/1qD3SzsTsFrtZOCgMdjdphuugxW9bdWxb/view?usp=share_link',
                 },
                 {
-                  description: 'Ubuntu 24.04:',
+                  description: 'Ubuntu 24.04',
                   title: 'minesweeper_1.1.0_amd64.deb',
                   url: 'https://drive.google.com/file/d/1ByUxoo_0Gv1BbrtKyytgb1_HZVbANbsX/view?usp=share_link',
                 },
                 {
-                  description: 'Fedora 42:',
+                  description: 'Fedora 42',
                   title: 'minesweeper-1.1.0-1.x86_64.rpm',
                   url: 'https://drive.google.com/file/d/1HrA8gEKBLP3EtQsdRFwDrlI0tYelx-on/view?usp=share_link',
                 },
@@ -49,17 +49,17 @@ export class DownloadComponent {
               title: 'ARM64',
               links: [
                 {
-                  description: 'Debian 13:',
+                  description: 'Debian 13',
                   title: 'minesweeper_1.1.0_arm64.deb',
                   url: 'https://drive.google.com/file/d/1AoYfjazrRAalmQn-bAIu96bqvIvPDerg/view?usp=share_link',
                 },
                 {
-                  description: 'Ubuntu 24.04:',
+                  description: 'Ubuntu 24.04',
                   title: 'minesweeper_1.1.0_arm64.deb',
                   url: 'https://drive.google.com/file/d/1I2jvvZ6mAiJVYymCvEvBEsNWSIbkUD9-/view?usp=share_link',
                 },
                 {
-                  description: 'Fedora 42:',
+                  description: 'Fedora 42',
                   title: 'minesweeper-1.1.0-1.aarch64.rpm',
                   url: 'https://drive.google.com/file/d/1SrCQIi89yvSJ1uIWLBBiUlLPITKA1khf/view?usp=share_link',
                 },
@@ -75,12 +75,12 @@ export class DownloadComponent {
               title: 'x64',
               links: [
                 {
-                  description: 'Standard Installer:',
+                  description: 'Standard Installer',
                   title: 'Minesweeper-1.1.0.dmg',
                   url: 'https://drive.google.com/file/d/1euPhcCe2W5gd-9o3ij9L_X8HvLNk7jMZ/view?usp=share_link',
                 },
                 {
-                  description: 'For MDM/IT deployments:',
+                  description: 'For MDM/IT deployments',
                   title: 'Minesweeper-1.1.0.pkg',
                   url: 'https://drive.google.com/file/d/1poW1Yfqs5OU9GMkGYmInMw6-AoJ3IkVA/view?usp=share_link',
                 },
@@ -96,12 +96,12 @@ export class DownloadComponent {
               title: 'x64',
               links: [
                 {
-                  description: 'Quick Installer:',
+                  description: 'Quick Installer',
                   title: 'Minesweeper-1.1.0.exe',
                   url: 'https://drive.google.com/file/d/1A9VxRpzO91Dc4Vp8w2gNwbIrZHNY7zRf/view?usp=share_link',
                 },
                 {
-                  description: 'For Admins (silent installs):',
+                  description: 'For Admins (silent installs)',
                   title: 'Minesweeper-1.1.0.msi',
                   url: 'https://drive.google.com/file/d/1uqm5EmgD2tjKCBjHv73hGhwZiUvO6vAJ/view?usp=share_link',
                 },
@@ -109,17 +109,6 @@ export class DownloadComponent {
             },
           ],
         },
-        // {
-        //   os: 'Other OS',
-        //   title: 'ZIP Archive',
-        //   links: [
-        //     {
-        //       description: 'Manual install for other platforms.',
-        //       title: 'Minesweeper-1.0.0.zip',
-        //       url: '',
-        //     },
-        //   ],
-        // },
       ],
       videos: [
         {
