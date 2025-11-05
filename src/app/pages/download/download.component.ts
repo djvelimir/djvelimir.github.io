@@ -23,7 +23,7 @@ export class DownloadComponent {
       platforms: [
         {
           os: 'Linux',
-          title: 'DEB / RPM',
+          title: 'DEB / RPM / Flatpak',
           architectures: [
             {
               title: 'x64',
@@ -42,6 +42,11 @@ export class DownloadComponent {
                   description: 'Fedora 42',
                   title: 'minesweeper-1.1.0-1.x86_64.rpm',
                   url: 'https://drive.google.com/file/d/1HrA8gEKBLP3EtQsdRFwDrlI0tYelx-on/view?usp=share_link',
+                },
+                {
+                  description: 'Any Linux distribution (Flatpak)',
+                  title: 'minesweeper.flatpak',
+                  url: 'https://drive.google.com/file/d/1XiuN8OKnDVbXGofXAKjrayabvvIMOoXt/view?usp=sharing',
                 },
               ],
             },
