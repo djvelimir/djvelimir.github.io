@@ -3,7 +3,7 @@ import { PortfolioComponent } from '@pages/portfolio/portfolio.component';
 import { AboutComponent } from '@pages/about/about.component';
 import { ContactComponent } from '@pages/contact/contact.component';
 import { PageNotFoundComponent } from '@pages/page-not-found/page-not-found.component';
-import { DownloadComponent } from './pages/download/download.component';
+import { DownloadComponent } from '@pages/download/download.component';
 
 const author = 'Velimir Đurković';
 

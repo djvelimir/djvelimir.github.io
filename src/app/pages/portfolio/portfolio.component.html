@@ -30,6 +30,7 @@
           {{ demo.name }}
         </h2>
         <p class="leading-relaxed text-base mb-4">{{ demo.description }}</p>
+        @if (demo.url && demo.url.startsWith("http")) {
         <a
           [href]="demo.url"
           target="_blank"
@@ -50,6 +51,28 @@
             <path d="M5 12h14M12 5l7 7-7 7"></path>
           </svg>
         </a>
+        } @else {
+        <a
+          ariaCurrentWhenActive="page"
+          routerLinkActive="active"
+          [routerLink]="demo.url"
+          class="dark:text-green-400 text-green-500 inline-flex items-center"
+          >Demo
+          <svg
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            class="w-4 h-4 ml-2"
+            viewBox="0 0 24 24"
+            width="16"
+            height="16"
+          >
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </a>
+        }
       </div>
       }
     </div>

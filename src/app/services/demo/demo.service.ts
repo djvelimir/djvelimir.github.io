@@ -48,7 +48,7 @@ export class DemoService {
         name: 'Java',
         description:
           'Java implementation of Minesweeper with sound effects, which supports various game modes, including Beginner Historical 8x8 (10 mines), Beginner, Intermediate, and Expert. This implementation provides a playable Minesweeper game with a graphical user interface and includes features like mine planting, flagging, cell opening, and game outcome detection.',
-        url: 'https://djvelimir.github.io/#/download',
+        url: '/download',
       },
     ]);
   }
