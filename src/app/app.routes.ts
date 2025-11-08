@@ -4,6 +4,9 @@ import { AboutComponent } from '@pages/about/about.component';
 import { ContactComponent } from '@pages/contact/contact.component';
 import { PageNotFoundComponent } from '@pages/page-not-found/page-not-found.component';
 import { DownloadComponent } from '@pages/download/download.component';
+import { MinesweeperComponent } from '@pages/download/minesweeper/minesweeper.component';
+import { TetrisComponent } from '@pages/download/tetris/tetris.component';
+import { MyRadioWaveComponent } from '@pages/download/my-radio-wave/my-radio-wave.component';
 
 const author = 'Velimir Đurković';
 
@@ -17,6 +20,12 @@ export const routes: Routes = [
     path: 'download',
     title: `${author} | Download`,
     component: DownloadComponent,
+    children: [
+      { path: 'minesweeper', component: MinesweeperComponent },
+      { path: 'tetris', component: TetrisComponent },
+      { path: 'my-radio-wave', component: MyRadioWaveComponent },
+      { path: '', redirectTo: 'minesweeper', pathMatch: 'full' }, // default subpage
+    ],
   },
   {
     path: 'about',

@@ -1,6 +1,8 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { DownloadComponent } from './download.component';
+import { provideRouter } from '@angular/router';
+import { provideNoopAnimations } from '@angular/platform-browser/animations';
 
 describe('DownloadComponent', () => {
   let component: DownloadComponent;
@@ -9,6 +11,7 @@ describe('DownloadComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       imports: [DownloadComponent],
+      providers: [provideNoopAnimations(), provideRouter([])],
     }).compileComponents();
 
     fixture = TestBed.createComponent(DownloadComponent);
