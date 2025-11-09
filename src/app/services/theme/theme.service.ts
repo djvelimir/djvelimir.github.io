@@ -19,10 +19,12 @@ export class ThemeService {
   }
 
   isDarkTheme() {
-    return (
-      localStorage['theme'] === 'dark' ||
-      (!('theme' in localStorage) &&
-        window.matchMedia('(prefers-color-scheme: dark)').matches)
-    );
+    return !('theme' in localStorage) || localStorage['theme'] === 'dark';
+
+    // return (
+    //   localStorage['theme'] === 'dark' ||
+    //   (!('theme' in localStorage) &&
+    //     window.matchMedia('(prefers-color-scheme: dark)').matches)
+    // );
   }
 }
