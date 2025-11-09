@@ -5,7 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "build:deploy": "ng build --base-href https://djvelimir.github.io/",
+    "build:deploy": "ng build --base-href ./",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "test:ci": "ng test --watch=false",
