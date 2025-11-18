@@ -111,6 +111,9 @@ export class MyRadioWaveComponent {
         {
           url: 'https://www.youtube.com/embed/LK_wqkLRet0?rel=0',
         },
+        {
+          url: 'https://www.youtube.com/embed/0GCJc8VDtbk?rel=0',
+        },
       ],
       instructions: {
         title: 'Installation Instructions',
