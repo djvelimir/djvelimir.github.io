@@ -9,7 +9,7 @@ export class HolidayService {
     const currentDate: Date = new Date();
     const currentYear = currentDate.getFullYear();
     const newYearJanuaryEnd = new Date(`${currentYear}-01-20`).getTime();
-    const newYearDecemberStart = new Date(`${currentYear}-12-20`).getTime();
+    const newYearDecemberStart = new Date(`${currentYear}-12-01`).getTime();
     const today = currentDate.getTime();
 
     return of(newYearDecemberStart <= today || today <= newYearJanuaryEnd);
