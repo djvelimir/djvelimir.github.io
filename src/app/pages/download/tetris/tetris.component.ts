@@ -29,18 +29,18 @@ export class TetrisComponent {
               links: [
                 {
                   description: 'Debian 13',
-                  title: 'tetris_1.1.0_amd64.deb',
-                  url: 'https://drive.google.com/file/d/1ZvnDwS8C5RgJU1w7I3LH6Vg2ycP0rfAr/view?usp=share_link',
+                  title: 'tetris_1.1.1_amd64.deb',
+                  url: 'https://www.dropbox.com/scl/fi/c9uklj7nofkj8s8qdf6ts/tetris_1.1.1_amd64.deb?rlkey=6iopegy36nhnnhhxeb2gexsle&st=jwnp1m7o&dl=1',
                 },
                 {
                   description: 'Ubuntu 24.04',
-                  title: 'tetris_1.1.0_amd64.deb',
-                  url: 'https://drive.google.com/file/d/1gXdW9F0mKHCDHYDs3xZhLSsZ8nFwHVJ5/view?usp=share_link',
+                  title: 'tetris_1.1.1_amd64.deb',
+                  url: 'https://www.dropbox.com/scl/fi/qcicm46avnzdzehg0br25/tetris_1.1.1_amd64.deb?rlkey=fp0rlpja972yj19j8782wu1ep&st=tk9l576f&dl=1',
                 },
                 {
-                  description: 'Fedora 42',
-                  title: 'tetris-1.1.0-1.x86_64.rpm',
-                  url: 'https://drive.google.com/file/d/1j16OIzZ46RInlzuxNFkpbTRP1n2lJ0Cg/view?usp=share_link',
+                  description: 'Fedora 43',
+                  title: 'tetris-1.1.1-1.x86_64.rpm',
+                  url: 'https://www.dropbox.com/scl/fi/t3zi2l2szp5sg0600neht/tetris-1.1.1-1.x86_64.rpm?rlkey=dyju0se80znhpzkf3hi6olytn&st=tdhr8s03&dl=1',
                 },
               ],
             },
@@ -49,18 +49,18 @@ export class TetrisComponent {
               links: [
                 {
                   description: 'Debian 13',
-                  title: 'tetris_1.1.0_arm64.deb',
-                  url: 'https://drive.google.com/file/d/108w41_KWwivynUMsBtepGTe9Mt9CplIA/view?usp=share_link',
+                  title: 'tetris_1.1.1_arm64.deb',
+                  url: 'https://www.dropbox.com/scl/fi/si44v8mt3tjmi9gtnhbme/tetris_1.1.1_arm64.deb?rlkey=l2o59qxoj6chzysbsqfcgg2qa&st=hd5a3rz3&dl=1',
                 },
                 {
                   description: 'Ubuntu 24.04',
-                  title: 'tetris_1.1.0_arm64.deb',
-                  url: 'https://drive.google.com/file/d/1FCcZaJWsC772FcXBeYOcwe9vIAE899p9/view?usp=share_link',
+                  title: 'tetris_1.1.1_arm64.deb',
+                  url: 'https://www.dropbox.com/scl/fi/zlypc2bzi52rpdct0es3f/tetris_1.1.1_arm64.deb?rlkey=jfyygabovhb1hzorua6qq47gs&st=4sja9siy&dl=1',
                 },
                 {
-                  description: 'Fedora 42',
-                  title: 'tetris-1.1.0-1.aarch64.rpm',
-                  url: 'https://drive.google.com/file/d/1Qau-mPVavGbNJViKnuUjS9LoQl_Yq4hj/view?usp=share_link',
+                  description: 'Fedora 43',
+                  title: 'tetris-1.1.1-1.aarch64.rpm',
+                  url: 'https://www.dropbox.com/scl/fi/5wj3d97js03a439jv71hq/tetris-1.1.1-1.aarch64.rpm?rlkey=0owhy7w9pg2zuukdr9ppg0iw3&st=kzwfoebk&dl=1',
                 },
               ],
             },
@@ -75,13 +75,13 @@ export class TetrisComponent {
               links: [
                 {
                   description: 'Standard Installer',
-                  title: 'Tetris-1.1.0.dmg',
-                  url: 'https://drive.google.com/file/d/1VCyZaat-r0JyZxzbxaEpa2b2vm7kGu-q/view?usp=share_link',
+                  title: 'Tetris-1.1.1.dmg',
+                  url: 'https://www.dropbox.com/scl/fi/zwtv6g7c8f7px8gdlb236/Tetris-1.1.1.dmg?rlkey=pjxekz21mipr4f0l76l3yqshq&st=xbdvxz37&dl=1',
                 },
                 {
                   description: 'For MDM/IT deployments',
-                  title: 'Tetris-1.1.0.pkg',
-                  url: 'https://drive.google.com/file/d/1SSbZb0-8CMR_fkU-K2YUEz_ybCuCZb2g/view?usp=share_link',
+                  title: 'Tetris-1.1.1.pkg',
+                  url: 'https://www.dropbox.com/scl/fi/ub3whsk3rj8kpro5uuqyv/Tetris-1.1.1.pkg?rlkey=te8l2iomk1fcbb6x5xypus6aq&st=vy71032x&dl=1',
                 },
               ],
             },
@@ -96,13 +96,13 @@ export class TetrisComponent {
               links: [
                 {
                   description: 'Quick Installer',
-                  title: 'Tetris-1.1.0.exe',
-                  url: 'https://drive.google.com/file/d/1l6X4HuOvbKjIxLGEwPHEvaaKyk9A12vl/view?usp=share_link',
+                  title: 'Tetris-1.1.1.exe',
+                  url: 'https://www.dropbox.com/scl/fi/t1jzvkdw3g56ydeo1f4sv/Tetris-1.1.1.exe?rlkey=l9e8u60zi7d9rnm864sfhu4z4&st=2p30zeo7&dl=1',
                 },
                 {
                   description: 'For Admins (silent installs)',
-                  title: 'Tetris-1.1.0.msi',
-                  url: 'https://drive.google.com/file/d/1Q2SKK4VHVsjxpq6LjV4KyaMO94h3501M/view?usp=share_link',
+                  title: 'Tetris-1.1.1.msi',
+                  url: 'https://www.dropbox.com/scl/fi/looeee6980cgtledjkkco/Tetris-1.1.1.msi?rlkey=wdfbrr01edq3ei1rfxltbqa2b&st=hcco495u&dl=1',
                 },
               ],
             },

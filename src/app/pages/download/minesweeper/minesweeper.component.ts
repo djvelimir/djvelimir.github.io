@@ -30,23 +30,18 @@ export class MinesweeperComponent {
               links: [
                 {
                   description: 'Debian 13',
-                  title: 'minesweeper_1.1.0_amd64.deb',
-                  url: 'https://drive.google.com/file/d/1qD3SzsTsFrtZOCgMdjdphuugxW9bdWxb/view?usp=share_link',
+                  title: 'minesweeper_1.1.1_amd64.deb',
+                  url: 'https://www.dropbox.com/scl/fi/x4qnogak4ga1k6m802c9d/minesweeper_1.1.1_amd64.deb?rlkey=vnnht7risjqzuzdpugfsvr27f&st=lq4r7ft8&dl=1',
                 },
                 {
                   description: 'Ubuntu 24.04',
-                  title: 'minesweeper_1.1.0_amd64.deb',
-                  url: 'https://drive.google.com/file/d/1ByUxoo_0Gv1BbrtKyytgb1_HZVbANbsX/view?usp=share_link',
+                  title: 'minesweeper_1.1.1_amd64.deb',
+                  url: 'https://www.dropbox.com/scl/fi/syuh7kkad7axv92isih5u/minesweeper_1.1.1_amd64.deb?rlkey=7lbqz3gg00ss222qqqo53boow&st=oyam58es&dl=1',
                 },
                 {
-                  description: 'Fedora 42',
-                  title: 'minesweeper-1.1.0-1.x86_64.rpm',
-                  url: 'https://drive.google.com/file/d/1HrA8gEKBLP3EtQsdRFwDrlI0tYelx-on/view?usp=share_link',
-                },
-                {
-                  description: 'Any Linux distribution (Flatpak)',
-                  title: 'minesweeper.flatpak',
-                  url: 'https://drive.google.com/file/d/1XiuN8OKnDVbXGofXAKjrayabvvIMOoXt/view?usp=sharing',
+                  description: 'Fedora 43',
+                  title: 'minesweeper-1.1.1-1.x86_64.rpm',
+                  url: 'https://www.dropbox.com/scl/fi/jz7kt0p579okk7asgavyl/minesweeper-1.1.1-1.x86_64.rpm?rlkey=kfusn1f4he6m2apk3cepetav8&st=4nn5qgtr&dl=1',
                 },
               ],
             },
@@ -55,18 +50,18 @@ export class MinesweeperComponent {
               links: [
                 {
                   description: 'Debian 13',
-                  title: 'minesweeper_1.1.0_arm64.deb',
-                  url: 'https://drive.google.com/file/d/1AoYfjazrRAalmQn-bAIu96bqvIvPDerg/view?usp=share_link',
+                  title: 'minesweeper_1.1.1_arm64.deb',
+                  url: 'https://www.dropbox.com/scl/fi/q94xdmsz68ievfi9vxx5d/minesweeper_1.1.1_arm64.deb?rlkey=oj5dt1cm72ql0gul61i60bcby&st=bh6mn3lb&dl=1',
                 },
                 {
                   description: 'Ubuntu 24.04',
-                  title: 'minesweeper_1.1.0_arm64.deb',
-                  url: 'https://drive.google.com/file/d/1I2jvvZ6mAiJVYymCvEvBEsNWSIbkUD9-/view?usp=share_link',
+                  title: 'minesweeper_1.1.1_arm64.deb',
+                  url: 'https://www.dropbox.com/scl/fi/7fv90s71lahduo1c4foe8/minesweeper_1.1.1_arm64.deb?rlkey=5kslibk1lrf9ny3wcrde7vwli&st=pp5vaeoq&dl=1',
                 },
                 {
-                  description: 'Fedora 42',
-                  title: 'minesweeper-1.1.0-1.aarch64.rpm',
-                  url: 'https://drive.google.com/file/d/1SrCQIi89yvSJ1uIWLBBiUlLPITKA1khf/view?usp=share_link',
+                  description: 'Fedora 43',
+                  title: 'minesweeper-1.1.1-1.aarch64.rpm',
+                  url: 'https://www.dropbox.com/scl/fi/fmiit0rvdw8utikaprgo1/minesweeper-1.1.1-1.aarch64.rpm?rlkey=w1uyhs9fjknspaepnspjjhqwn&st=k309j2k8&dl=1',
                 },
               ],
             },
@@ -81,13 +76,13 @@ export class MinesweeperComponent {
               links: [
                 {
                   description: 'Standard Installer',
-                  title: 'Minesweeper-1.1.0.dmg',
-                  url: 'https://drive.google.com/file/d/1euPhcCe2W5gd-9o3ij9L_X8HvLNk7jMZ/view?usp=share_link',
+                  title: 'Minesweeper-1.1.1.dmg',
+                  url: 'https://www.dropbox.com/scl/fi/u8fn6ujlsv5yopy5jqwwl/Minesweeper-1.1.1.dmg?rlkey=7i221kuppzi9dkln491y38ism&st=l3wo9vsl&dl=1',
                 },
                 {
                   description: 'For MDM/IT deployments',
-                  title: 'Minesweeper-1.1.0.pkg',
-                  url: 'https://drive.google.com/file/d/1poW1Yfqs5OU9GMkGYmInMw6-AoJ3IkVA/view?usp=share_link',
+                  title: 'Minesweeper-1.1.1.pkg',
+                  url: 'https://www.dropbox.com/scl/fi/0vxm54o2p40032563crvf/Minesweeper-1.1.1.pkg?rlkey=hpp5i6vab4uxyvf1g4yb26yyu&st=lz8y3ijk&dl=1',
                 },
               ],
             },
@@ -102,13 +97,13 @@ export class MinesweeperComponent {
               links: [
                 {
                   description: 'Quick Installer',
-                  title: 'Minesweeper-1.1.0.exe',
-                  url: 'https://drive.google.com/file/d/1A9VxRpzO91Dc4Vp8w2gNwbIrZHNY7zRf/view?usp=share_link',
+                  title: 'Minesweeper-1.1.1.exe',
+                  url: 'https://www.dropbox.com/scl/fi/gi6p6eryk0j6va8oozsq1/Minesweeper-1.1.1.exe?rlkey=mcx45lv3tanctji535zsuo7xq&st=2vxv8kgd&dl=1',
                 },
                 {
                   description: 'For Admins (silent installs)',
-                  title: 'Minesweeper-1.1.0.msi',
-                  url: 'https://drive.google.com/file/d/1uqm5EmgD2tjKCBjHv73hGhwZiUvO6vAJ/view?usp=share_link',
+                  title: 'Minesweeper-1.1.1.msi',
+                  url: 'https://www.dropbox.com/scl/fi/co5yqps2blufms6t9x6ln/Minesweeper-1.1.1.msi?rlkey=2e38yfpg5w9dqwredg7jasavp&st=ye0cx1jc&dl=1',
                 },
               ],
             },

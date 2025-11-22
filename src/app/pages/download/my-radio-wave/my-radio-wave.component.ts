@@ -27,17 +27,17 @@ export class MyRadioWaveComponent {
               links: [
                 {
                   description: 'Debian 13',
-                  title: '[name]_1.1.0_amd64.deb',
+                  title: '[name]_1.0.0_amd64.deb',
                   url: '',
                 },
                 {
                   description: 'Ubuntu 24.04',
-                  title: '[name]_1.1.0_amd64.deb',
+                  title: '[name]_1.0.0_amd64.deb',
                   url: '',
                 },
                 {
-                  description: 'Fedora 42',
-                  title: '[name]-1.1.0-1.x86_64.rpm',
+                  description: 'Fedora 43',
+                  title: '[name]-1.0.0-1.x86_64.rpm',
                   url: '',
                 },
               ],
@@ -47,17 +47,17 @@ export class MyRadioWaveComponent {
               links: [
                 {
                   description: 'Debian 13',
-                  title: '[name]_1.1.0_arm64.deb',
+                  title: '[name]_1.0.0_arm64.deb',
                   url: '',
                 },
                 {
                   description: 'Ubuntu 24.04',
-                  title: '[name]_1.1.0_arm64.deb',
+                  title: '[name]_1.0.0_arm64.deb',
                   url: '',
                 },
                 {
-                  description: 'Fedora 42',
-                  title: '[name]-1.1.0-1.aarch64.rpm',
+                  description: 'Fedora 43',
+                  title: '[name]-1.0.0-1.aarch64.rpm',
                   url: '',
                 },
               ],
@@ -73,12 +73,12 @@ export class MyRadioWaveComponent {
               links: [
                 {
                   description: 'Standard Installer',
-                  title: '[name]-1.1.0.dmg',
+                  title: '[name]-1.0.0.dmg',
                   url: '',
                 },
                 {
                   description: 'For MDM/IT deployments',
-                  title: '[name]-1.1.0.pkg',
+                  title: '[name]-1.0.0.pkg',
                   url: '',
                 },
               ],
@@ -94,12 +94,12 @@ export class MyRadioWaveComponent {
               links: [
                 {
                   description: 'Quick Installer',
-                  title: '[name]-1.1.0.exe',
+                  title: '[name]-1.0.0.exe',
                   url: '',
                 },
                 {
                   description: 'For Admins (silent installs)',
-                  title: '[name]-1.1.0.msi',
+                  title: '[name]-1.0.0.msi',
                   url: '',
                 },
               ],
