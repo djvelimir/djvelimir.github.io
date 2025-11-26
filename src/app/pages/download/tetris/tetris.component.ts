@@ -13,7 +13,8 @@ export class TetrisComponent {
       title: 'Tetris',
       descriptions: [
         "I've developed a classic Tetris clone in Java that captures the original gameplay while adding modern touches for a smoother experience.",
-        'It includes scores and levels, ghost pieces, next piece preview, sound effects, and background music for an engaging experience.',
+        'It includes scores and levels, ghost pieces, next piece preview, sound effects, and background music for an engaging experience. Players have full control over the audio experience, you can toggle background music and sound effects on or off at any time to suit your preference.',
+        'The game also offers visual customization. You can switch between different backgrounds, reset to the default one, and even choose whether you want the background to be semi-transparent for a cleaner, more focused play area.',
         'You can play using traditional arrow keys, but alternative control schemes are also supported, including WASD, Vim-style H/J/K/L, and pressing Space to instantly drop the current piece for fast-paced play.',
         'Available for Windows, macOS, and Linux with easy installers. Just install and start stacking.',
         'This project was a fun way to dive into real-time game logic while modernizing a timeless classic.',
@@ -29,18 +30,18 @@ export class TetrisComponent {
               links: [
                 {
                   description: 'Debian 13',
-                  title: 'tetris_1.1.1_amd64.deb',
-                  url: 'https://www.dropbox.com/scl/fi/c9uklj7nofkj8s8qdf6ts/tetris_1.1.1_amd64.deb?rlkey=6iopegy36nhnnhhxeb2gexsle&st=jwnp1m7o&dl=1',
+                  title: 'tetris_1.2.0_amd64.deb',
+                  url: 'https://www.dropbox.com/scl/fi/2kjnsw3ytjw4oa4pwjwzv/tetris_1.2.0_amd64.deb?rlkey=a51nc4kinzimr7xsyo7fm7z4z&st=gg6rvgix&dl=1',
                 },
                 {
                   description: 'Ubuntu 24.04',
-                  title: 'tetris_1.1.1_amd64.deb',
-                  url: 'https://www.dropbox.com/scl/fi/qcicm46avnzdzehg0br25/tetris_1.1.1_amd64.deb?rlkey=fp0rlpja972yj19j8782wu1ep&st=tk9l576f&dl=1',
+                  title: 'tetris_1.2.0_amd64.deb',
+                  url: 'https://www.dropbox.com/scl/fi/pa5ep7yevtru9vb70mo7n/tetris_1.2.0_amd64.deb?rlkey=itp3w82vb9l82d6jkd4ufurpi&st=nk5w9kcm&dl=1',
                 },
                 {
                   description: 'Fedora 43',
-                  title: 'tetris-1.1.1-1.x86_64.rpm',
-                  url: 'https://www.dropbox.com/scl/fi/t3zi2l2szp5sg0600neht/tetris-1.1.1-1.x86_64.rpm?rlkey=dyju0se80znhpzkf3hi6olytn&st=tdhr8s03&dl=1',
+                  title: 'tetris-1.2.0-1.x86_64.rpm',
+                  url: 'https://www.dropbox.com/scl/fi/iiayn7vz8j3iobv3t1ofl/tetris-1.2.0-1.x86_64.rpm?rlkey=f4enne1hw56vzv95zd3oanrx2&st=gt1lutw8&dl=1',
                 },
               ],
             },
@@ -49,18 +50,18 @@ export class TetrisComponent {
               links: [
                 {
                   description: 'Debian 13',
-                  title: 'tetris_1.1.1_arm64.deb',
-                  url: 'https://www.dropbox.com/scl/fi/si44v8mt3tjmi9gtnhbme/tetris_1.1.1_arm64.deb?rlkey=l2o59qxoj6chzysbsqfcgg2qa&st=hd5a3rz3&dl=1',
+                  title: 'tetris_1.2.0_arm64.deb',
+                  url: 'https://www.dropbox.com/scl/fi/4gexjlk5xdfp1trz75jz7/tetris_1.2.0_arm64.deb?rlkey=rtmcb1a7gvwetcxvr7bci5530&st=0j50tor5&dl=1',
                 },
                 {
                   description: 'Ubuntu 24.04',
-                  title: 'tetris_1.1.1_arm64.deb',
-                  url: 'https://www.dropbox.com/scl/fi/zlypc2bzi52rpdct0es3f/tetris_1.1.1_arm64.deb?rlkey=jfyygabovhb1hzorua6qq47gs&st=4sja9siy&dl=1',
+                  title: 'tetris_1.2.0_arm64.deb',
+                  url: 'https://www.dropbox.com/scl/fi/rg0ni5qdnsa2lp1e45j5a/tetris_1.2.0_arm64.deb?rlkey=77sochntsuf7keewgc9u7e7i9&st=93z5e4oe&dl=1',
                 },
                 {
                   description: 'Fedora 43',
-                  title: 'tetris-1.1.1-1.aarch64.rpm',
-                  url: 'https://www.dropbox.com/scl/fi/5wj3d97js03a439jv71hq/tetris-1.1.1-1.aarch64.rpm?rlkey=0owhy7w9pg2zuukdr9ppg0iw3&st=kzwfoebk&dl=1',
+                  title: 'tetris-1.2.0-1.aarch64.rpm',
+                  url: 'https://www.dropbox.com/scl/fi/2uygv2ynlqmtli7fu34wf/tetris-1.2.0-1.aarch64.rpm?rlkey=r99oaiqvbekl7lqumrss1tnh6&st=twwm93ny&dl=1',
                 },
               ],
             },
@@ -75,13 +76,13 @@ export class TetrisComponent {
               links: [
                 {
                   description: 'Standard Installer',
-                  title: 'Tetris-1.1.1.dmg',
-                  url: 'https://www.dropbox.com/scl/fi/zwtv6g7c8f7px8gdlb236/Tetris-1.1.1.dmg?rlkey=pjxekz21mipr4f0l76l3yqshq&st=xbdvxz37&dl=1',
+                  title: 'Tetris-1.2.0.dmg',
+                  url: 'https://www.dropbox.com/scl/fi/2nswrt0ubdcgbzy0s206g/Tetris-1.2.0.dmg?rlkey=c5vnrq4wynch4svesp4gapbsq&st=f986g7qs&dl=1',
                 },
                 {
                   description: 'For MDM/IT deployments',
-                  title: 'Tetris-1.1.1.pkg',
-                  url: 'https://www.dropbox.com/scl/fi/ub3whsk3rj8kpro5uuqyv/Tetris-1.1.1.pkg?rlkey=te8l2iomk1fcbb6x5xypus6aq&st=vy71032x&dl=1',
+                  title: 'Tetris-1.2.0.pkg',
+                  url: 'https://www.dropbox.com/scl/fi/4rszbeo6l5ruzau0c7dm9/Tetris-1.2.0.pkg?rlkey=imjmvfwum8aq364wxwfyoguja&st=1210l1wg&dl=1',
                 },
               ],
             },
@@ -96,13 +97,13 @@ export class TetrisComponent {
               links: [
                 {
                   description: 'Quick Installer',
-                  title: 'Tetris-1.1.1.exe',
-                  url: 'https://www.dropbox.com/scl/fi/t1jzvkdw3g56ydeo1f4sv/Tetris-1.1.1.exe?rlkey=l9e8u60zi7d9rnm864sfhu4z4&st=2p30zeo7&dl=1',
+                  title: 'Tetris-1.2.0.exe',
+                  url: 'https://www.dropbox.com/scl/fi/xm98gyjzcw8g0ibt8hmz8/Tetris-1.2.0.exe?rlkey=4nqfb4x1825qw2cpywls0qbo5&st=xleoxu4w&dl=1',
                 },
                 {
                   description: 'For Admins (silent installs)',
-                  title: 'Tetris-1.1.1.msi',
-                  url: 'https://www.dropbox.com/scl/fi/looeee6980cgtledjkkco/Tetris-1.1.1.msi?rlkey=wdfbrr01edq3ei1rfxltbqa2b&st=hcco495u&dl=1',
+                  title: 'Tetris-1.2.0.msi',
+                  url: 'https://www.dropbox.com/scl/fi/w8bugs5eo1k21kmw8r3d6/Tetris-1.2.0.msi?rlkey=kiuj3fiq9c7mklbtdpm00f300&st=by20k5mh&dl=1',
                 },
               ],
             },
@@ -114,10 +115,10 @@ export class TetrisComponent {
           url: 'https://www.youtube.com/embed/fQM-9wLAvy4?rel=0',
         },
         {
-          url: 'https://www.youtube.com/embed/8yBEOxvcb8w?rel=0',
+          url: 'https://www.youtube.com/embed/HTyurO6MU3Q?rel=0',
         },
         {
-          url: 'https://www.youtube.com/embed/goYFIU0aoDg?rel=0',
+          url: 'https://www.youtube.com/embed/PfS1d31Vw10?rel=0',
         },
       ],
       instructions: {
