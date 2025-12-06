@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
-import { VideoComponent } from '@app/components/video/video.component';
+import { DownloadProductComponent } from '@app/components/download-product/download-product.component';
 
 @Component({
   selector: 'app-minesweeper',
-  imports: [VideoComponent],
+  imports: [DownloadProductComponent],
   templateUrl: './minesweeper.component.html',
   styleUrl: './minesweeper.component.scss',
 })

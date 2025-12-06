@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
-import { VideoComponent } from '@app/components/video/video.component';
+import { DownloadProductComponent } from '@app/components/download-product/download-product.component';
 
 @Component({
   selector: 'app-my-radio-wave',
-  imports: [VideoComponent],
+  imports: [DownloadProductComponent],
   templateUrl: './my-radio-wave.component.html',
   styleUrl: './my-radio-wave.component.scss',
 })
