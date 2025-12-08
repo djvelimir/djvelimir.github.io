@@ -1,9 +1,9 @@
 import {
   Component,
-  Input,
   OnChanges,
   SimpleChanges,
   inject,
+  input,
 } from '@angular/core';
 import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 
@@ -16,13 +16,13 @@ import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 export class VideoComponent implements OnChanges {
   private sanitizer = inject(DomSanitizer);
 
-  @Input() rawUrl = '';
+  rawUrl = input<string>('');
   videoUrl: SafeResourceUrl | null = null;
 
   ngOnChanges(changes: SimpleChanges): void {
     if (changes['rawUrl'] && this.rawUrl) {
       this.videoUrl = this.sanitizer.bypassSecurityTrustResourceUrl(
-        this.rawUrl
+        this.rawUrl()
       );
     }
   }

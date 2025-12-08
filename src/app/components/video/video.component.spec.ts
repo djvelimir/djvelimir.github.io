@@ -14,18 +14,7 @@ describe('VideoComponent', () => {
     fixture = TestBed.createComponent(VideoComponent);
     component = fixture.componentInstance;
 
-    component.rawUrl = 'https://example.com/video.mp4';
-
-    // Simulate Angular @Input lifecycle
-    component.ngOnChanges({
-      rawUrl: {
-        currentValue: component.rawUrl,
-        previousValue: '',
-        firstChange: true,
-        isFirstChange: () => true,
-      },
-    });
-
+    fixture.componentRef.setInput('rawUrl', 'https://example.com/video.mp4');
     fixture.detectChanges();
   });
 

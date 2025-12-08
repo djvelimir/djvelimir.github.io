@@ -5,6 +5,7 @@ import { HeaderComponent } from '@components/header/header.component';
 import { FooterComponent } from '@components/footer/footer.component';
 import { HolidayService } from '@services/holiday/holiday.service';
 import { routeTransition } from '@app/route-transition';
+import { NgOptimizedImage } from '@angular/common';
 
 @Component({
   selector: 'app-root',
@@ -13,6 +14,7 @@ import { routeTransition } from '@app/route-transition';
     HeaderComponent,
     FooterComponent,
     SnowflakesComponent,
+    NgOptimizedImage,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
