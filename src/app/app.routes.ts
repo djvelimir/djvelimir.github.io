@@ -21,9 +21,21 @@ export const routes: Routes = [
     title: `${author} | Download`,
     component: DownloadComponent,
     children: [
-      { path: 'minesweeper', component: MinesweeperComponent },
-      { path: 'tetris', component: TetrisComponent },
-      { path: 'my-radio-wave', component: MyRadioWaveComponent },
+      {
+        path: 'minesweeper',
+        title: `${author} | Download - Minesweeper`,
+        component: MinesweeperComponent,
+      },
+      {
+        path: 'tetris',
+        title: `${author} | Download - Tetris`,
+        component: TetrisComponent,
+      },
+      {
+        path: 'my-radio-wave',
+        title: `${author} | Download - My Radio Wave`,
+        component: MyRadioWaveComponent,
+      },
       { path: '', redirectTo: 'minesweeper', pathMatch: 'full' }, // default subpage
     ],
   },
