@@ -1,0 +1,1 @@
+*{background:#fff;color:#000}header,nav,footer,.sidebar,.no-print{display:none!important}body{font-size:12pt;line-height:1.4}a{text-decoration:underline;color:#000}a[href]:after{content:" ("attr(href)")";font-size:10pt}h1,h2,h3{break-after:avoid}img,table,pre{break-inside:avoid}@page{margin:1cm}
